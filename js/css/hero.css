@@ -1,0 +1,113 @@
+header{
+    border-bottom: 5px dashed var(--outline-color);
+    margin: 10px;
+    padding: 10px;
+}
+header #hero{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-around;
+align-content: center;
+align-items: center;
+width:98vw;
+height: 98vh;
+margin: 20px auto;
+}
+#hero img{
+    align-self: center;
+    justify-self: baseline;
+    border-left: 5px dashed var(--outline-color);
+}
+#hero #hero-content{
+    display: flex;
+    flex-flow:column;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+#hero #hero-content #hero-texts-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    border-bottom: 3px dashed var(--outline-color) ;
+    flex-basis: 60%;
+}
+#hero #hero-content #hero-texts-container h1,
+#hero #hero-content #hero-texts-container p,
+#hero #hero-content #hero-texts-container code
+{
+margin-bottom:3rem;
+}
+
+#hero #hero-content #hero-texts-container h1,
+#hero #hero-content #hero-texts-container p{
+    color: rgba(0, 0, 0, 0);
+    box-shadow: -0.5px 1px .5px #333;
+    text-shadow: 20px 20px 0px darkgoldenrod ;
+    background-color: var(--bg-shadow-color);
+    border-radius: 3px;
+    
+
+}
+#hero #hero-content #hero-texts-container code {
+    align-self: end;
+    border:2px solid var(--outline-color);
+    padding :.25rem;
+    border-radius: 2px;
+}
+code a #let , code a #equal-func, code a #gt{
+    color :var(--bg-shadow-color);
+}
+code a #view-more{
+    color :orange;
+}
+code a #equal{
+    color :#333;
+}
+code a #parentheses{
+    color :goldenrod;
+}
+
+#let:hover,
+#view-more:hover,
+#equal:hover,
+#equal-func:hover,
+#parentheses:hover,
+#gt:hover{
+font-size: 2rem;
+text-shadow: 4px 2px .25px #333;
+}
+
+#news-letter-form{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#news-letter-form label, #news-letter-form input, #news-letter-form button{
+    margin-bottom: 10px;
+   
+}
+#news-letter-form label,
+#news-letter-form input{
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+#news-letter-form input,
+#news-letter-form button
+{
+        border: 2px solid var(--outline-color);
+    border-radius: 3px;
+    padding: 10px;
+    
+}
+#news-letter-form button{
+    align-self: end;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #1979a9;
+
+}
+#news-letter-form button:hover{
+font-size: 1.75rem;
+color:#063970;
+}

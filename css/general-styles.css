@@ -1,0 +1,48 @@
+:root{
+--bg-main-theme: whitesmoke;
+--btn-border-color: #1874a5;
+--txt-color:#063970;
+--bg-shadow-color:#154c79;
+--outline-color:#abdbe3;
+--txt-and-shadowtxt-color : darkgoldenrod;
+
+
+
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-main-theme);
+    font-family: 'Genos', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+p{
+    
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: 'Exo 2', sans-serif;
+    
+}
+a{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+h1,h2,h3{
+    color: rgba(0, 0, 0, 0);
+    box-shadow: -0.5px 1px .5px #333;
+    text-shadow: 20px 20px 0px darkgoldenrod ;
+    background-color: var(--bg-shadow-color);
+    border-radius: 3px;
+}
